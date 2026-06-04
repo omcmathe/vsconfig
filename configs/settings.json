@@ -6,6 +6,10 @@
     "[python]": {
         "editor.renderWhitespace": "boundary"
     },
+    /* ACCESSIBILITY */
+    "accessibility.dimUnfocused.enabled": true,
+    "accessibility.dimUnfocused.opacity": 0.8,
+    //
     /* BREADCRUMBS */
     "breadcrumbs.enabled": false,
     //
@@ -63,6 +67,7 @@
     "window.customMenuBarAltFocus": false,
     "window.enableMenuBarMnemonics": false,
     "window.menuBarVisibility": "hidden",
+    "window.newWindowDimensions": "inherit",
     "window.newWindowProfile": "Default",
     "window.openFoldersInNewWindow": "on",
     "window.zoomLevel": 1.25,
