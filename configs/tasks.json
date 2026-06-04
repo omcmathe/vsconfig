@@ -28,6 +28,57 @@
                 "clear": true,
                 "close": true
             }
+        },
+        {
+            "label": "Scaffold VSC Project",
+            "detail": "Create new vscode project (workspace).",
+            "group": "none",
+            "hide": true,
+            "type": "shell",
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "command": "python",
+            "args": [
+                "/me/dev/omcmathe/vsconfig/create_project.py",
+            ],
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": true,
+                "close": true
+            }
+        },
+        {
+            "label": "Projects: New Project",
+            "detail": "Create new vscode project (workspace).",
+            "group": "none",
+            "type": "shell",
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "command": "codium",
+            "args": [
+                "-r",
+                "${workspaceFolder}/.vscode/${workspaceFolderBasename}.code-workspace"
+            ],
+            "dependsOn": [
+                "Scaffold VSC Project"
+            ],
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": true,
+                "close": true
+            }
         }
     ]
 }
