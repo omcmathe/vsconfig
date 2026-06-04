@@ -133,7 +133,7 @@ def main() -> None:
 	args = PARSER.parse_args()
 	
 	try:
-		copy_config_to_project(Path(args.directory))
+		copy_config_to_project(Path(args.directory) or None)
 	except Exception as e:
 		print(f"Error: {e}")
 		sys.exit(1)
