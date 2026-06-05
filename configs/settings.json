@@ -1,10 +1,32 @@
 {
+    "[go]": {
+        "editor.fontFamily": "'Go Mono', monospace"
+    },
+    "[java]": {
+        "editor.fontFamily": "'Jetbrains Mono', monospace"
+    },
+    "[javascript][typescript]": {
+        "editor.fontFamily": "'Fira Code', monospace"
+    },
+    "[json][jsonc][jsonl]": {
+        "editor.fontFamily": "'Cascadia Mono', monospace"
+    },
+    "[kotlin]": {
+        "editor.fontFamily": "'Jetbrains Mono', monospace"
+    },
     "[markdown]": {
-        "editor.fontFamily": "'Google Sans', 'Google Sans', monospace",
+        "editor.fontFamily": "'Inter', sans",
         "editor.fontSize": 18
     },
     "[python]": {
+        "editor.fontFamily": "'Monaspace Neon Var', monospace",
         "editor.renderWhitespace": "boundary"
+    },
+    "[sql]": {
+        "editor.fontFamily": "'Iosevka', monospace"
+    },
+    "[yaml]": {
+        "editor.fontFamily": "'Monaspace Neon Var', monospace"
     },
     /* ACCESSIBILITY */
     "accessibility.dimUnfocused.enabled": true,
@@ -16,7 +38,7 @@
     /* EDITOR */
     "editor.autoIndent": "advanced",
     "editor.detectIndentation": false,
-    "editor.fontFamily": "'Google Sans Code', 'Google Sans Code', monospace",
+    "editor.fontFamily": "'Google Sans Code', monospace",
     "editor.fontSize": 16,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modificationsIfAvailable",
@@ -36,13 +58,23 @@
     "explorer.compactFolders": false,
     //
     /* PROJECT MANAGER */
+    "projectManager.cacheProjectsBetweenSessions": false,
+    "projectManager.confirmSwitchOnActiveWindow": "always",
     "projectManager.git.baseFolders": [
         "/me/"
     ],
     "projectManager.git.maxDepthRecursion": 0,
+    "projectManager.ignoreProjectsWithinProjects": true,
+    "projectManager.showParentFolderInfoOnDuplicates": true,
+    "projectManager.showProjectNameInStatusBar": false,
+    "projectManager.tags.collapseItems": "alwaysCollapsed",
+    "projectManager.vscode.baseFolders": [
+        "/me/"
+    ],
+    "projectManager.vscode.maxDepthRecursion": 0,
     //
     /* PYTHON EXTENSION */
-    "python.languageServer": "Default",
+    "python.languageServer": "None",
     //
     /* TERMINAL */
     "terminal.integrated.allowChords": false,
@@ -56,6 +88,7 @@
     "terminal.integrated.defaultProfile.windows": "pwsh",
     "terminal.integrated.enableVisualBell": true,
     "terminal.integrated.environmentChangesIndicator": "on",
+    "terminal.integrated.fontFamily": "'Hack Bold', monospace",
     "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.hideOnStartup": "whenEmpty",
     "terminal.integrated.persistentSessionReviveProcess": "never",
@@ -82,6 +115,7 @@
     "workbench.preferredLightColorTheme": "Dominvm Blue Light",
     "workbench.productIconTheme": "Tabler",
     "workbench.startupEditor": "terminal",
+    "workbench.tree.indent": 6,
     //
     /* ZEN MODE */
     "zenMode.fullScreen": false,

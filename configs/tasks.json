@@ -79,6 +79,34 @@
                 "clear": true,
                 "close": true
             }
+        },
+        {
+            "label": "Projects: Auto Launch Projects",
+            "detail": "Automatically launch a workspace if found.",
+            "group": "none",
+            "hide": true,
+            "type": "shell",
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "command": "codium",
+            "args": [
+                "-r",
+                "${workspaceFolder}/.vscode/${workspaceFolderBasename}.code-workspace"
+            ],
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "presentation": {
+                "echo": false,
+                "reveal": "silent",
+                "focus": false,
+                "panel": "dedicated",
+                "showReuseMessage": false,
+                "clear": true,
+                "close": true
+            }
         }
     ]
 }
