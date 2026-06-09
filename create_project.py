@@ -1,6 +1,5 @@
-from pathlib import Path
 import json
-
+from pathlib import Path
 
 CWD = Path.cwd()
 CWD_NAME = CWD.name
@@ -36,7 +35,7 @@ def main() -> None:
     scratchpads_folder = new_vsc_folder / "scratchpads"
     settings_file = new_vsc_folder / "settings.json"
     workspace_file = new_vsc_folder / f"{CWD_NAME}{WORKSPACE_FILE_EXT}"
-    
+
     try:
         new_vsc_folder.mkdir(exist_ok=True)
         scratchpads_folder.mkdir(exist_ok=True)
