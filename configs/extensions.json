@@ -3,7 +3,9 @@
     "alefragnani.project-manager",
     "anweber.reveal-button",
     "dominvm.dominvm-theme",
+    "github.vscode-pull-request-github",
     "ms-python.python",
+    "ms-python.vscode-pylance",
     "ms-python.vscode-python-envs",
     "thang-nm.flow-icons",
     "zguolee.tabler-icons"

@@ -62,7 +62,7 @@
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "command": "codium",
+            "command": "code",
             "args": [
                 "-r",
                 "${workspaceFolder}/.vscode/${workspaceFolderBasename}.code-workspace"
@@ -90,7 +90,7 @@
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "command": "codium",
+            "command": "code",
             "args": [
                 "-r",
                 "${workspaceFolder}/.vscode/${workspaceFolderBasename}.code-workspace"

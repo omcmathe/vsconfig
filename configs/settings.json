@@ -20,7 +20,7 @@
     },
     "[python]": {
         "editor.fontFamily": "'Monaspace Neon Var', monospace",
-        "editor.renderWhitespace": "boundary"
+        "editor.renderWhitespace": "boundary",
     },
     "[sql]": {
         "editor.fontFamily": "'Iosevka', monospace"
@@ -32,8 +32,12 @@
     "accessibility.dimUnfocused.enabled": true,
     "accessibility.dimUnfocused.opacity": 0.8,
     //
+    /* BASEDPYRIGHT */
+    "basedpyright.analysis.typeCheckingMode": "standard",
+    //
     /* BREADCRUMBS */
     "breadcrumbs.enabled": false,
+    "chat.titleBar.signIn.enabled": false,
     //
     /* EDITOR */
     "editor.autoIndent": "advanced",
@@ -56,6 +60,17 @@
     "explorer.autoOpenDroppedFile": false,
     "explorer.autoReveal": true,
     "explorer.compactFolders": false,
+    /* GIT */
+    "git.autofetch": true,
+    //
+    /* GITHUB */
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "githubIssues.assignWhenWorking": false,
+    "githubIssues.issueBranchTitle": "${sanitizedLowercaseIssueTitle}-${issueNumber}",
+    "githubIssues.issueCompletionFormatScm": "fixes ${issueNumberLabel}",
+    "githubIssues.workingBaseBranch": "defaultBranch",
+    "githubIssues.workingIssueFormatScm": "fixes ${issueNumberLabel}",
+    "githubPullRequests.pushBranch": "always",
     //
     /* PROJECT MANAGER */
     "projectManager.cacheProjectsBetweenSessions": false,
@@ -87,7 +102,6 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.defaultProfile.windows": "pwsh",
     "terminal.integrated.enableVisualBell": true,
-    "terminal.integrated.environmentChangesIndicator": "on",
     "terminal.integrated.fontFamily": "'Hack Bold', monospace",
     "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.hideOnStartup": "whenEmpty",
